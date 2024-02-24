@@ -1,0 +1,217 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(-45deg, #89eabd, #2a5ac2, #3a8282, #51bfde8b);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* 
+#icon{
+    position:absolute;
+    top:297px;
+    right:11vh;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+}
+
+#icon.hide{
+    background: url("./img/hide.png");
+    background-size:cover;
+}
+
+
+#icon2{
+    position:absolute;
+    top:376px;
+    right:11vh;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+}
+
+#icon2.hide{
+    background: url("./img/hide.png");
+    background-size:cover;
+}
+
+#icon3{
+    position:absolute;
+    top:4px;
+    right:11vh;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+   
+
+}  */
+
+ .form i {
+    position: absolute;
+    visibility:hidden;
+  }
+  
+  .form small {
+    position: absolute;
+    visibility:hidden;
+  }
+
+  .form.success input {
+    border-color: #2ecc71;
+  
+  }
+  
+  .form.error input {
+    border-color: #e74c3c;
+  }
+
+  .form.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .form.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+
+  .form.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
+
+  .e1{
+    top:11rem;
+    left: 7.7rem;
+  }
+
+  .e2{
+    top:17rem;
+    left:7.7rem;
+  }
+
+  .e3{
+    top:23rem;
+    left:7.7rem;
+  }
+
+  .e4{
+    top:28.8rem;
+    left:7.7rem;
+  }
+
+  .o1{
+     top:9.3rem;
+     right:8rem;
+     z-index: 999999;
+  }
+
+  .o2{
+    top:15.4rem;
+    right:8rem;
+    z-index: 999999;
+ }
+
+ .o3{
+    top:21.2rem;
+    right:8rem;
+    z-index: 999999;
+ }
+
+ .o4{
+    top:27rem;
+    right:8rem;
+    z-index: 999999;
+ }
+
+.bt{
+  width:40px;
+  height:20px;
+  border:solid 1px black ;
+  border-radius:60px;
+  position:relative;
+  cursor:pointer;
+  top:0.7rem;
+}
+
+.bt:before{
+    content:'';
+    position:absolute;
+    width: 17px;
+    height:17px;
+    background:#000000;
+    border-radius:50%;
+    top:7%;
+    left:2%;
+    transition: left .3s;
+}
+.bt.active{
+  border:solid 1px white ;
+}
+.bt.active:before{
+  left:21px;
+  background-color: white;
+}
+.kc{
+  background-color:rgb(251, 249, 249);
+  border:black solid 0.5px;
+  transition: .3s;
+}
+.kc.active{
+  background-color: rgb(33, 33, 31);
+  color:white;
+  transition: .3s;
+  
+}
+.hj{
+  background-color:rgb(255, 204, 0);
+  padding: 8px;
+  border:none;
+  transition: 1s;
+}
+.hj.active{
+   background-color: #ff5b09;
+   border:solid 1px #ff5b09;
+   transition: .3s;
+}
+.cf{
+  border-color:rgb(255, 204, 0);
+  opacity: 100%;
+  transition: .3s;
+}
+.cf.active{
+  border:solid 1px #ff5b09;
+  transition: .3s;
+}
+
+.form-control{
+   border:3px solid black;
+}
+
+.cod{
+  transition: background .3s;
+}
