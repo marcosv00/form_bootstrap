@@ -1,3 +1,4 @@
+/* redefinição do body*/
 body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -8,8 +9,7 @@ body{
 	  height: 100vh;
 }
 
-/*-------------------------------------------------------- */
-
+/*------------------Inicio degradê-------------------------------- */
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -21,10 +21,10 @@ body{
 		background-position: 0% 50%;
 	}
 }
+/*-------------------------Fim degradê------------------------------- */
 
-/*-------------------------------------------------------- */
-
-#icon{
+/*--------------------------Inicio Ocultar e mostrar senha(olho)------------------------------------------*/
+#icon1{
     position:absolute;
     top:297px;
     right:11vh;
@@ -36,7 +36,7 @@ body{
     cursor:pointer;
 }
 
-#icon.hide{
+#icon1.hide{
     background: url("./img/hide.png");
     background-size:cover;
 }
@@ -58,95 +58,89 @@ body{
     background-size:cover;
 }
 
-#icon3{
-    position:absolute;
-    top:4px;
-    right:11vh;
-    transform: translateY(50%);
-    background: url("./img/show.png");
-    background-size:cover;
-    width:27px;
-    height:27px;
-    cursor:pointer;
-} 
 
-.form i {
+/*-----------------------------Fim Ocultar e mostrar senha(olho)---------------------------------------*/
+
+/*-------------Inicio Inputs,circulos e mensagens(validações)----------------------*/
+.divInput i {
   position: absolute;
   visibility:hidden;
 }
   
-.form small {
+.divInput small {
   position: absolute;
   visibility:hidden;
 }
 
-.form.success input {
+.divInput.success input {
   border-color: #2ecc71;
 }
   
-.form.error input {
+.divInput.error input {
   border-color: #e74c3c;
 }
 
-.form.success i.fa-check-circle {
+.divInput.success i.fa-check-circle {
   color: #2ecc71;
   visibility: visible;
 }
   
-.form.error i.fa-exclamation-circle {
+.divInput.error i.fa-exclamation-circle {
   color: #e74c3c;
   visibility: visible;
 }
 
-.form.error small {
+.divInput.error small {
   visibility: visible;
   color: #e74c3c;
 }
 
-.e1{
+.mensagem_de_erro1{
   top:11rem;
   left: 7.7rem;
 }
 
-.e2{
+.mensagem_de_erro2{
   top:17rem;
   left:7.7rem;
 }
 
-.e3{
+.mensagem_de_erro3{
   top:23rem;
   left:7.7rem;
 }
 
-.e4{
+.mensagem_de_erro4{
   top:28.8rem;
   left:7.7rem;
 }
 
-.o1{
+.circulo_certoErrado1{
     top:9.3rem;
     right:8rem;
     z-index: 999999;
 }
 
-.o2{
+.circulo_certoErrado2{
   top:15.4rem;
   right:8rem;
   z-index: 999999;
 }
 
-.o3{
+.circulo_certoErrado3{
   top:21.2rem;
   right:8rem;
   z-index: 999999;
 }
 
-.o4{
+.circulo_certoErrado4{
   top:27rem;
   right:8rem;
   z-index: 999999;
 }
+/*--------------Fim Inputs,circulos e mensagens(validações)-----------------------------*/
 
+/*-----------------Inicio Modo Dark(cores)---------------------------------------------------------*/
 .esfera{
   width:40px;
   height:20px;
@@ -190,7 +184,7 @@ body{
   transition: .3s; 
 }
 
-.hj{
+.enviar{
   background-color:rgb(255, 204, 0);
   padding: 8px;
   border:none;
@@ -200,7 +194,7 @@ body{
   letter-spacing: 1.5px;
 }
 
-.hj.active{
+.enviar.active{
    background-color: #ff5b09;
    border:solid 1px #ff5b09;
    transition: .3s;
@@ -218,10 +212,14 @@ body{
   transition: .3s;
 }
 
+.modoDark{
+  transition: background .3s;
+}
+/*-------------------Fim Modo Dark(cores)-------------------------------------------------------*/
+
+/*-------------------colocar borda preta no form control do Bootstrap-------------------------------------------------------*/
 .form-control{
    border:3px solid black;
 }
 
-.modoDark{
-  transition: background .3s;
-}
+

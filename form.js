@@ -1,35 +1,36 @@
-const password2 = document.getElementById('pass');
-const icon = document.getElementById('icon');
-const password1 = document.getElementById('passco');
+// Inicio Mostrar e ocultar senha
+const password1 = document.getElementById('password');
+const icon1 = document.getElementById('icon1');
+const password2 = document.getElementById('passwordConfirmation');
 const icon2 = document.getElementById('icon2');
 
-function s(){
-      if(password2.type === "password"){
-           password2.setAttribute('type','text');
-           icon.classList.add('hide');
+function ocultarSenha1(){
+      if(password1.type === "password"){
+           password1.setAttribute('type','text');
+           icon1.classList.add('hide');
       }else{
-          password2.setAttribute('type','password');
-          icon.classList.remove('hide');
+          password1.setAttribute('type','password');
+          icon1.classList.remove('hide');
       }
 }
 
-function ss(){
-    if(password1.type === "password"){
-         password1.setAttribute('type','text');
+function ocultarSenha2(){
+    if(password2.type === "password"){
+         password2.setAttribute('type','text');
          icon2.classList.add('hide');
     }else{
-        password1.setAttribute('type','password');
+        password2.setAttribute('type','password');
         icon2.classList.remove('hide');
     }
 }
+// Fim mostrar e ocultar senha
 
-//----------------------------------------------------------
-
+// imicio validações dos inputs do formulaio html
 const form = document.getElementById("formulario");
-const username = document.getElementById("username");
+const nome = document.getElementById("nome");
 const email = document.getElementById("email");
-const password = document.getElementById("pass");
-const passwordConfirmation = document.getElementById("passco");
+const password = document.getElementById("password");
+const passwordConfirmation = document.getElementById("passwordConfirmation");
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -38,15 +39,15 @@ form.addEventListener("submit", (e) => {
   });
 
 function checkInputs() {
-    const usernameValue = username.value;
+    const usernameValue = nome.value;
     const emailValue = email.value;
     const passwordValue = password.value;
     const passwordConfirmationValue = passwordConfirmation.value;
   
     if (usernameValue === "") {
-      setErrorFor(username, "O nome de usuário é obrigatório.");
+      setErrorFor(nome, "O nome de usuário é obrigatório.");
     } else {
-      setSuccessFor(username);
+      setSuccessFor(nome);
     }
   
     if (emailValue === "") {
@@ -73,9 +74,9 @@ function checkInputs() {
       setSuccessFor(passwordConfirmation);
     }
   
-    const formControls = form.querySelectorAll(".form");
+    const formControls = form.querySelectorAll(".divInput");
     const formIsValid = [...formControls].every((form) => {
-      return form.className === "form success";
+      return form.className === "divInput success";
     });
   
     if (formIsValid) {
@@ -91,14 +92,14 @@ function checkInputs() {
     small.innerText = message;
   
     // Adiciona a classe de erro
-    formControl.className = "form error";
+    formControl.className = "divInput error";
   }
   
   function setSuccessFor(input) {
     const formControl = input.parentElement;
   
     // Adicionar a classe de sucesso
-    formControl.className = "form success";
+    formControl.className = "divInput success";
   }
   
   function checkEmail(email) {
@@ -106,17 +107,18 @@ function checkInputs() {
       email
     );
   }
+// fim validações dos inputs do formulario html
 
-/*---------------------------------------------------------------------*/
-
+// inicio modo dark
 const esfera = document.querySelector('.esfera');
 const formulario = document.querySelector('.formulario');
-const hj = document.querySelector('.hj');
+const enviar = document.querySelector('.enviar');
 const hr = document.querySelector('.hr');
+
 esfera.onclick = function(){
     this.classList.toggle('active');
     formulario.classList.toggle('active');
-    hj.classList.toggle('active');
+    enviar.classList.toggle('active');
     hr.classList.toggle('active');
 }
-
+// fim modo dark
