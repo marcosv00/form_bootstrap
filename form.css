@@ -2,12 +2,14 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: linear-gradient(-45deg, #89eabd, #2a5ac2, #3a8282, #51bfde8b);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-
+    background: linear-gradient(-45deg, #89eabd, #7a9adf, #3a8282, #51bfde8b);
+	  background-size: 400% 400%;
+	  animation: gradient 15s ease infinite;
+	  height: 100vh;
 }
+
+/*-------------------------------------------------------- */
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -20,7 +22,8 @@ body{
 	}
 }
 
-/* 
+/*-------------------------------------------------------- */
+
 #icon{
     position:absolute;
     top:297px;
@@ -37,7 +40,6 @@ body{
     background: url("./img/hide.png");
     background-size:cover;
 }
-
 
 #icon2{
     position:absolute;
@@ -66,89 +68,86 @@ body{
     width:27px;
     height:27px;
     cursor:pointer;
-   
+} 
 
-}  */
-
- .form i {
-    position: absolute;
-    visibility:hidden;
-  }
+.form i {
+  position: absolute;
+  visibility:hidden;
+}
   
-  .form small {
-    position: absolute;
-    visibility:hidden;
-  }
+.form small {
+  position: absolute;
+  visibility:hidden;
+}
 
-  .form.success input {
-    border-color: #2ecc71;
+.form.success input {
+  border-color: #2ecc71;
+}
   
-  }
+.form.error input {
+  border-color: #e74c3c;
+}
+
+.form.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
   
-  .form.error input {
-    border-color: #e74c3c;
-  }
+.form.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
 
-  .form.success i.fa-check-circle {
-    color: #2ecc71;
-    visibility: visible;
-  }
-  
-  .form.error i.fa-exclamation-circle {
-    color: #e74c3c;
-    visibility: visible;
-  }
+.form.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
 
-  .form.error small {
-    visibility: visible;
-    color: #e74c3c;
-  }
+.e1{
+  top:11rem;
+  left: 7.7rem;
+}
 
-  .e1{
-    top:11rem;
-    left: 7.7rem;
-  }
+.e2{
+  top:17rem;
+  left:7.7rem;
+}
 
-  .e2{
-    top:17rem;
-    left:7.7rem;
-  }
+.e3{
+  top:23rem;
+  left:7.7rem;
+}
 
-  .e3{
-    top:23rem;
-    left:7.7rem;
-  }
+.e4{
+  top:28.8rem;
+  left:7.7rem;
+}
 
-  .e4{
-    top:28.8rem;
-    left:7.7rem;
-  }
-
-  .o1{
-     top:9.3rem;
-     right:8rem;
-     z-index: 999999;
-  }
-
-  .o2{
-    top:15.4rem;
+.o1{
+    top:9.3rem;
     right:8rem;
     z-index: 999999;
- }
+}
 
- .o3{
-    top:21.2rem;
-    right:8rem;
-    z-index: 999999;
- }
+.o2{
+  top:15.4rem;
+  right:8rem;
+  z-index: 999999;
+}
 
- .o4{
-    top:27rem;
-    right:8rem;
-    z-index: 999999;
- }
+.o3{
+  top:21.2rem;
+  right:8rem;
+  z-index: 999999;
+}
 
-.bt{
+.o4{
+  top:27rem;
+  right:8rem;
+  z-index: 999999;
+}
+
+.esfera{
   width:40px;
   height:20px;
   border:solid 1px black ;
@@ -158,7 +157,7 @@ body{
   top:0.7rem;
 }
 
-.bt:before{
+.esfera:before{
     content:'';
     position:absolute;
     width: 17px;
@@ -169,41 +168,52 @@ body{
     left:2%;
     transition: left .3s;
 }
-.bt.active{
+
+.esfera.active{
   border:solid 1px white ;
 }
-.bt.active:before{
+
+.esfera.active:before{
   left:21px;
   background-color: white;
 }
-.kc{
+
+.formulario{
   background-color:rgb(251, 249, 249);
   border:black solid 0.5px;
   transition: .3s;
 }
-.kc.active{
+
+.formulario.active{
   background-color: rgb(33, 33, 31);
   color:white;
-  transition: .3s;
-  
+  transition: .3s; 
 }
+
 .hj{
   background-color:rgb(255, 204, 0);
   padding: 8px;
   border:none;
-  transition: 1s;
+  transition: .3s;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
 }
+
 .hj.active{
    background-color: #ff5b09;
    border:solid 1px #ff5b09;
    transition: .3s;
+   color:white;
 }
-.cf{
+
+.hr{
   border-color:rgb(255, 204, 0);
   opacity: 100%;
   transition: .3s;
 }
-.cf.active{
+
+.hr.active{
   border:solid 1px #ff5b09;
   transition: .3s;
 }
@@ -212,6 +222,6 @@ body{
    border:3px solid black;
 }
 
-.cod{
+.modoDark{
   transition: background .3s;
 }

@@ -1,31 +1,31 @@
-// const password2 = document.getElementById('password');
-// const icon = document.getElementById('icon');
-// const password1 = document.getElementById('password1');
-// const icon2 = document.getElementById('icon2');
-// function s(){
-//       if(password2.type === "password"){
-//            password2.setAttribute('type','text');
-//            icon.classList.add('hide');
-//       }else{
-//           password2.setAttribute('type','password');
-//           icon.classList.remove('hide');
-//       }
-// }
+const password2 = document.getElementById('pass');
+const icon = document.getElementById('icon');
+const password1 = document.getElementById('passco');
+const icon2 = document.getElementById('icon2');
 
-// function ss(){
-//     if(password1.type === "password"){
-//          password1.setAttribute('type','text');
-//          icon2.classList.add('hide');
-//     }else{
-//         password1.setAttribute('type','password');
-//         icon2.classList.remove('hide');
-//     }
-// }
+function s(){
+      if(password2.type === "password"){
+           password2.setAttribute('type','text');
+           icon.classList.add('hide');
+      }else{
+          password2.setAttribute('type','password');
+          icon.classList.remove('hide');
+      }
+}
+
+function ss(){
+    if(password1.type === "password"){
+         password1.setAttribute('type','text');
+         icon2.classList.add('hide');
+    }else{
+        password1.setAttribute('type','password');
+        icon2.classList.remove('hide');
+    }
+}
 
 //----------------------------------------------------------
 
-
-const form = document.getElementById("form");
+const form = document.getElementById("formulario");
 const username = document.getElementById("username");
 const email = document.getElementById("email");
 const password = document.getElementById("pass");
@@ -36,8 +36,6 @@ form.addEventListener("submit", (e) => {
   
     checkInputs();
   });
-
-
 
 function checkInputs() {
     const usernameValue = username.value;
@@ -76,7 +74,6 @@ function checkInputs() {
     }
   
     const formControls = form.querySelectorAll(".form");
-  
     const formIsValid = [...formControls].every((form) => {
       return form.className === "form success";
     });
@@ -85,12 +82,6 @@ function checkInputs() {
       console.log("O formulário está 100% válido!");
     }
   }
-  
-
-
-
-
-
 
   function setErrorFor(input, message) {
     const formControl = input.parentElement;
@@ -118,15 +109,14 @@ function checkInputs() {
 
 /*---------------------------------------------------------------------*/
 
-
-const bt = document.querySelector('.bt');
-const kc = document.querySelector('.kc');
+const esfera = document.querySelector('.esfera');
+const formulario = document.querySelector('.formulario');
 const hj = document.querySelector('.hj');
-const cf = document.querySelector('.cf');
-bt.onclick = function(){
+const hr = document.querySelector('.hr');
+esfera.onclick = function(){
     this.classList.toggle('active');
-    kc.classList.toggle('active');
+    formulario.classList.toggle('active');
     hj.classList.toggle('active');
-    cf.classList.toggle('active');
+    hr.classList.toggle('active');
 }
 
