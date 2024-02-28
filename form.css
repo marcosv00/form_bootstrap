@@ -26,8 +26,8 @@ body{
 /*--------------------------Inicio Ocultar e mostrar senha(olho)------------------------------------------*/
 #icon1{
     position:absolute;
-    top:297px;
-    right:11vh;
+    top:368px;
+    right:7.3rem;
     transform: translateY(50%);
     background: url("./img/show.png");
     background-size:cover;
@@ -42,16 +42,17 @@ body{
 }
 
 #icon2{
-    position:absolute;
-    top:376px;
-    right:11vh;
-    transform: translateY(50%);
-    background: url("./img/show.png");
-    background-size:cover;
-    width:27px;
-    height:27px;
-    cursor:pointer;
+  position:absolute;
+  top:462px;
+  right:7.3rem;
+  transform: translateY(50%);
+  background: url("./img/show.png");
+  background-size:cover;
+  width:27px;
+  height:27px;
+  cursor:pointer;
 }
+ 
 
 #icon2.hide{
     background: url("./img/hide.png");
@@ -96,46 +97,46 @@ body{
 }
 
 .mensagem_de_erro1{
-  top:11rem;
+  top:17rem;
   left: 7.7rem;
 }
 
 .mensagem_de_erro2{
-  top:17rem;
+  top:20.2rem;
   left:7.7rem;
 }
 
 .mensagem_de_erro3{
-  top:23rem;
+  top:26rem;
   left:7.7rem;
 }
 
 .mensagem_de_erro4{
-  top:28.8rem;
+  top:31.8rem;
   left:7.7rem;
 }
 
 .circulo_certoErrado1{
-    top:9.3rem;
+    top:12.34rem;
     right:8rem;
     z-index: 999999;
 }
 
 .circulo_certoErrado2{
-  top:15.4rem;
+  top:18.4rem;
   right:8rem;
   z-index: 999999;
 }
 
 .circulo_certoErrado3{
-  top:21.2rem;
-  right:8rem;
+  top:24.2rem;
+  right:9.5rem;
   z-index: 999999;
 }
 
 .circulo_certoErrado4{
-  top:27rem;
-  right:8rem;
+  top:30.1rem;
+  right:9.5rem;
   z-index: 999999;
 }
 /*--------------Fim Inputs,circulos e mensagens(validações)-----------------------------*/
@@ -217,9 +218,92 @@ body{
 }
 /*-------------------Fim Modo Dark(cores)-------------------------------------------------------*/
 
+
 /*-------------------colocar borda preta no form control do Bootstrap-------------------------------------------------------*/
 .form-control{
    border:3px solid black;
 }
 
+/*--------------Inicio Media Querys-------------*/
+@media (max-width: 391px) {
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:19.2rem;
+    left:1rem;
+  }
+  
+  .mensagem_de_erro3{
+    top:25rem;
+    left:1rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:30.8rem;
+    left:1rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:11.4rem;
+      right:1rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:17.4rem;
+    right:1rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:23.3rem;
+    right:3rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:29.2rem;
+    right:3rem;
+    z-index: 999999;
+  }
 
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 17px;
+    height:17px;
+    background:#000000;
+    border-radius:50%;
+    top:4%;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 354px;
+    right:1rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:449px;
+    right:1rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
