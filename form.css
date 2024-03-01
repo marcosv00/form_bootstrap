@@ -486,18 +486,18 @@ body{
   
   .mensagem_de_erro2{
     top:19.4rem;
-    left:3rem;
+    left:2.2rem;
   }
   
   .mensagem_de_erro3{
     top:25.2rem;
-    left:3rem;
+    left:2.2rem;
     
   }
   
   .mensagem_de_erro4{
     top:31rem;
-    left:3rem;
+    left:2.2rem;
   }
   
   .circulo_certoErrado1{
@@ -1237,43 +1237,43 @@ body{
   }
   
   .mensagem_de_erro2{
-    top:20.1rem;
-    left:23rem;
+    top:20.2rem;
+    left:31rem;
   
   }
   
   .mensagem_de_erro3{
-    top:25.9rem;
-    left:23rem;
+    top:26rem;
+    left:31rem;
     
   }
   
   .mensagem_de_erro4{
-    top:31.8rem;
-    left:23rem;
+    top:31.9rem;
+    left:31rem;
   }
   
   .circulo_certoErrado1{
       top:12.4rem;
-      right:23.4rem;
+      right:31rem;
       z-index: 999999;
   }
   
   .circulo_certoErrado2{
     top:18.5rem;
-    right:23.3em;
+    right:31em;
     z-index: 999999;
   }
   
   .circulo_certoErrado3{
     top:24.4rem;
-    right:25.5em;
+    right:33em;
     z-index: 999999;
   }
   
   .circulo_certoErrado4{
     top:30.3rem;
-    right:25.5em;
+    right:33em;
     z-index: 999999;
   }
 
@@ -1281,18 +1281,18 @@ body{
     content:'';
     position:absolute;
     width: 1rem;
-    height:0.9rem;
+    height:1rem;
     background:#000000;
     border-radius:50%;
-    top:0.1rem;
-    left:2%;
+    top:0.015rem;
+    left:2.5%;
     transition: left .3s;
   }
 
   #icon1{
     position:absolute;
     top: 23.2rem;
-    right:23.3em;
+    right:31em;
     transform: translateY(50%);
     background: url("./img/show.png");
     background-size:cover;
@@ -1304,7 +1304,259 @@ body{
   #icon2{
     position:absolute;
     top:29.2rem;
-    right:23.3em;
+    right:31em;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:3072px) and (min-width:3071px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:20.7rem;
+    left:54.7rem;
+  
+  }
+  
+  .mensagem_de_erro3{
+    top:26.5rem;
+    left:54.7rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:32.3rem;
+    left:54.7rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:12.4rem;
+      right:55rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:18.5rem;
+    right:55em;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:24.4rem;
+    right:57em;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:30.3rem;
+    right:57em;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 1rem;
+    height:1.2rem;
+    background:#000000;
+    border-radius:50%;
+    top:-0.03rem;
+    left:0.6%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 23.2rem;
+    right:55em;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:29.2rem;
+    right:55em;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:4608px) and (min-width:4607px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:20.9rem;
+    left:102.3rem;
+  
+  }
+  
+  .mensagem_de_erro3{
+    top:26.8rem;
+    left:102.3rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:32.9rem;
+    left:102.3rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:12.6rem;
+      right:102.5rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:19rem;
+    right:102.5em;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:24.9rem;
+    right:104.5em;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:31rem;
+    right:104.5em;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 0.9rem;
+    height:1rem;
+    background:#000000;
+    border-radius:50%;
+    top:-0.1rem;
+    left:0.6%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 23.5rem;
+    right:102.5em;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:29.6rem;
+    right:102.5em;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:6144px) and (min-width:6143px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:21rem;
+    left:150rem;
+  
+  }
+  
+  .mensagem_de_erro3{
+    top:27.4rem;
+    left:150rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:33.3rem;
+    left:150rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:12.9rem;
+      right:150rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:19.4rem;
+    right:150em;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:25.3rem;
+    right:152em;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:31.3rem;
+    right:152em;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 1rem;
+    height:1rem;
+    background:#000000;
+    border-radius:50%;
+    top:-0.078rem;
+    left:0.6%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 24.2rem;
+    right:150em;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:30.1rem;
+    right:150em;
     transform: translateY(50%);
     background: url("./img/show.png");
     background-size:cover;
