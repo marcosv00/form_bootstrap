@@ -1,1 +1,1 @@
-descrição do meu projeto.
+Esse mini projeto que fiz tem o objetivo de testar todos os conhecimentos que eu aprendi durante meu aprenzidado em html, css e js através de  aulas da escola pelos meus professores, pelas video aulas no yotube e pelas aulas na plataforma Udemy. 
