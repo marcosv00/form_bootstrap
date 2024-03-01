@@ -1360,16 +1360,20 @@ body{
     right:57em;
     z-index: 999999;
   }
-
+ .esfera{
+  width: 2.4rem;
+  height: 1.3rem;
+ }
   .esfera:before{
     content:'';
     position:absolute;
-    width: 1rem;
-    height:1.2rem;
+    display: flex;
+    width: 0.9rem;
+    height:0.9rem;
     background:#000000;
     border-radius:50%;
-    top:-0.03rem;
-    left:0.6%;
+    top:1.7px;
+    left:2.6%;
     transition: left .3s;
   }
 
