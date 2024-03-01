@@ -254,6 +254,89 @@ body{
   }
   
   .circulo_certoErrado2{
+    top:17.49rem;
+    right:1rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:23.3rem;
+    right:3rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:29.2rem;
+    right:3rem;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 17px;
+    height:17px;
+    background:#000000;
+    border-radius:50%;
+    top:4%;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 354px;
+    right:1rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:449px;
+    right:1rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:512px) and (min-width: 511px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:19.2rem;
+    left:1rem;
+  }
+  
+  .mensagem_de_erro3{
+    top:25rem;
+    left:1rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:30.8rem;
+    left:1rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:11.4rem;
+      right:1rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
     top:17.4rem;
     right:1rem;
     z-index: 999999;
@@ -299,6 +382,929 @@ body{
     position:absolute;
     top:449px;
     right:1rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+
+}
+
+@media screen and (max-width:615px) and (min-width: 613px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:19.4rem;
+    left:3rem;
+  }
+  
+  .mensagem_de_erro3{
+    top:25.2rem;
+    left:3rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:31rem;
+    left:3rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:11.6rem;
+      right:3.3rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:17.8rem;
+    right:3.3rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:23.6rem;
+    right:5rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:29.5rem;
+    right:5rem;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 17px;
+    height:17px;
+    background:#000000;
+    border-radius:50%;
+    top:3%;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 22.5rem;
+    right:3rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:28.4rem;
+    right:3rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+
+}
+
+@media screen and (max-width:768px) and (min-width: 767px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:19.4rem;
+    left:3rem;
+  }
+  
+  .mensagem_de_erro3{
+    top:25.2rem;
+    left:3rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:31rem;
+    left:3rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:11.8rem;
+      right:2.5rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:17.9rem;
+    right:2.5rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:23.7rem;
+    right:4rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:29.5rem;
+    right:4rem;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 17px;
+    height:17px;
+    background:#000000;
+    border-radius:50%;
+    top:3%;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 22.5rem;
+    right:2.2rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:28.4rem;
+    right:2.2rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:878px) and (min-width: 876px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:19.6rem;
+    left:5.6rem;
+  }
+  
+  .mensagem_de_erro3{
+    top:25.4rem;
+    left:5.6rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:31.2rem;
+    left:5.6rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:11.9rem;
+      right:6rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:18.1rem;
+    right:6rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:23.8rem;
+    right:7.6rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:29.8rem;
+    right:7.6rem;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 17px;
+    height:17px;
+    background:#000000;
+    border-radius:50%;
+    top:3%;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 22.7rem;
+    right:5.6rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:28.6rem;
+    right:5.6rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:1024px) and (min-width: 1023px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:19.6rem;
+    left:2.6rem;
+  }
+  
+  .mensagem_de_erro3{
+    top:25.4rem;
+    left:2.6rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:31.2rem;
+    left:2.6rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:12rem;
+      right:3rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:18.1rem;
+    right:3rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:23.9rem;
+    right:4.7rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:29.8rem;
+    right:4.7rem;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 17px;
+    height:17px;
+    background:#000000;
+    border-radius:50%;
+    top:4%;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 22.7rem;
+    right:2.8rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:28.6rem;
+    right:2.8rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:1229px) and (min-width: 1228px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:19.9rem;
+    left:3.3rem;
+  }
+  
+  .mensagem_de_erro3{
+    top:25.6rem;
+    left:3.3rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:31.5rem;
+    left:3.3rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:12.3rem;
+      right:3.8rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:18.4rem;
+    right:3.8rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:24.2rem;
+    right:5.5rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:30rem;
+    right:5.5rem;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 17px;
+    height:17px;
+    background:#000000;
+    border-radius:50%;
+    top:4%;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 23rem;
+    right:3.5rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:28.8rem;
+    right:3.5rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:1397px) and (min-width: 1395px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:20rem;
+    left:8.4rem;
+  
+  }
+  
+  .mensagem_de_erro3{
+    top:25.8rem;
+    left:8.4rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:31.7rem;
+    left:8.4rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:12.3rem;
+      right:9rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:18.4rem;
+    right:9rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:24.2rem;
+    right:10.6rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:30rem;
+    right:10.6rem;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 17px;
+    height:17px;
+    background:#000000;
+    border-radius:50%;
+    top:4%;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 23rem;
+    right:8.6rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:28.8rem;
+    right:8.6rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+
+@media screen and (max-width:1229px) and (min-width: 1228px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:19.9rem;
+    left:3.3rem;
+  }
+  
+  .mensagem_de_erro3{
+    top:25.6rem;
+    left:3.3rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:31.5rem;
+    left:3.3rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:12.3rem;
+      right:3.8rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:18.4rem;
+    right:3.8rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:24.2rem;
+    right:5.5rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:30rem;
+    right:5.5rem;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 17px;
+    height:17px;
+    background:#000000;
+    border-radius:50%;
+    top:4%;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 23rem;
+    right:3.5rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:28.8rem;
+    right:3.5rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:1707px) and (min-width: 1705px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:20.1rem;
+    left:12.5rem;
+  
+  }
+  
+  .mensagem_de_erro3{
+    top:25.9rem;
+    left:12.5rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:31.8rem;
+    left:12.5rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:12.3rem;
+      right:13rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:18.4rem;
+    right:13rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:24.2rem;
+    right:15rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:30rem;
+    right:15rem;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 17px;
+    height:17px;
+    background:#000000;
+    border-radius:50%;
+    top:4%;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 23rem;
+    right:13rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:28.8rem;
+    right:13rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:1920px) and (min-width: 1919px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:20.1rem;
+    left:19rem;
+  
+  }
+  
+  .mensagem_de_erro3{
+    top:25.9rem;
+    left:19rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:31.8rem;
+    left:19rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:12.3rem;
+      right:19.5rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:18.4rem;
+    right:19.5rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:24.3rem;
+    right:21.5rem;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:30.1rem;
+    right:21.5rem;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 16px;
+    height:16px;
+    background:#000000;
+    border-radius:50%;
+    top:1.8%;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 23.1rem;
+    right:19.5rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:29rem;
+    right:19.5rem;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:2048px) and (min-width: 2047px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:20.1rem;
+    left:23rem;
+  
+  }
+  
+  .mensagem_de_erro3{
+    top:25.9rem;
+    left:23rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:31.8rem;
+    left:23rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:12.4rem;
+      right:23.4rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:18.5rem;
+    right:23.3em;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:24.4rem;
+    right:25.5em;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:30.3rem;
+    right:25.5em;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 1rem;
+    height:0.9rem;
+    background:#000000;
+    border-radius:50%;
+    top:0.11rem;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 23.2rem;
+    right:23.3em;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:29.2rem;
+    right:23.3em;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+}
+
+@media screen and (max-width:2304px) and (min-width: 2303px){
+  .mensagem_de_erro1{
+    top:17rem;
+    left: 7.7rem;
+  }
+  
+  .mensagem_de_erro2{
+    top:20.1rem;
+    left:23rem;
+  
+  }
+  
+  .mensagem_de_erro3{
+    top:25.9rem;
+    left:23rem;
+    
+  }
+  
+  .mensagem_de_erro4{
+    top:31.8rem;
+    left:23rem;
+  }
+  
+  .circulo_certoErrado1{
+      top:12.4rem;
+      right:23.4rem;
+      z-index: 999999;
+  }
+  
+  .circulo_certoErrado2{
+    top:18.5rem;
+    right:23.3em;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado3{
+    top:24.4rem;
+    right:25.5em;
+    z-index: 999999;
+  }
+  
+  .circulo_certoErrado4{
+    top:30.3rem;
+    right:25.5em;
+    z-index: 999999;
+  }
+
+  .esfera:before{
+    content:'';
+    position:absolute;
+    width: 1rem;
+    height:0.9rem;
+    background:#000000;
+    border-radius:50%;
+    top:0.1rem;
+    left:2%;
+    transition: left .3s;
+  }
+
+  #icon1{
+    position:absolute;
+    top: 23.2rem;
+    right:23.3em;
+    transform: translateY(50%);
+    background: url("./img/show.png");
+    background-size:cover;
+    width:27px;
+    height:27px;
+    cursor:pointer;
+  }
+
+  #icon2{
+    position:absolute;
+    top:29.2rem;
+    right:23.3em;
     transform: translateY(50%);
     background: url("./img/show.png");
     background-size:cover;
