@@ -2,8 +2,8 @@
 
 Esse mini projeto que fiz tem o objetivo de testar todos os conhecimentos que eu aprendi durante meu aprenzidado em html, css e js através de  aulas da escola pelos meus professores, pelas video aulas no yotube e pelas aulas na plataforma Udemy. 
 
-Visualize meu projeto por esse link:GitHub Pages.
-Você também pode ver meu projeto através do "Codepen.io" para ver clique aqui!
+Visualize meu projeto por esse link:[GitHub Pages](https://marcosv00.github.io/form_bootstrap/form).<br>
+Você também pode ver meu projeto atrabes do "Codepen.io" para ver clique [aqui!](https://codepen.io/Marcos-Victor-the-vuer/pen/QWPwqVZ)
 
 <div align="center" display="flex">
    
