@@ -815,7 +815,7 @@ body{
     top:17rem;
     left: 7.7rem;
   }
-  
+
   .mensagem_de_erro2{
     top:20rem;
     left:8.4rem;
@@ -879,6 +879,7 @@ body{
     width:27px;
     height:27px;
     cursor:pointer;
+  
   }
 
   #icon2{
